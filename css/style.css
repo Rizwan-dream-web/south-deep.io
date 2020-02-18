@@ -1,0 +1,261 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ margin:0px; padding:0px; font-family:"Open Sans"; font-size:16px;}
+
+h1, h2, h3, h4, h5, h6, input, select, radio, textfield, textarea, span, ul, ol, li, a, checkbox, p, strong{ margin:0px; padding:0px;}
+
+a{ text-decoration:none;}
+img{ border:none; padding:0;}
+a,img{ border:none;}
+.wrap{ width:1170px; margin:0 auto 0  auto;}
+/**********************default tags***********************/
+section, hgroup, article, figure, figcaption, aside, header, footer, nav, audio, video{ margin:0px; padding:0px; display:block;}
+/**********************default tags***********************/
+
+
+/**********************header tags strats***********************/
+.header{ width:100%; float:left; background:url(../images/header-bg.png) left top no-repeat;  }
+.header header{ width:100%; float:left; border-bottom:#596d9d solid 1px; padding:12px 0 12px 0;}
+.header header aside{ width:20%; float:left; font-size:14px; color:#fff; text-transform:uppercase;}
+
+.header header article{ width:14%; float:right;}
+.header header article ul{ list-style:none; margin:0px; padding:0px;}
+.header header article ul li{ float:left; margin:0 0 0 10px;}
+.header header article ul li:last-child{margin:0;}
+.header header article ul li a{ display:block; width:30px; height:17px;  background:url(../images/fb.png) center center no-repeat;}
+.header header article ul li a:hover{ background:url(../images/fb-ho.png) center center no-repeat;}
+
+.header header article ul li a.twi{  background:url(../images/twi.png) center center no-repeat;}
+.header header article ul li a.twi:hover{ background:url(../images/twi-ho.png) center center no-repeat;}
+
+.header header article ul li a.insta{ background:url(../images/insta.png) center center no-repeat;}
+.header header article ul li a.insta:hover{ background:url(../images/insta-ho.png) center center no-repeat;}
+
+.header header article ul li a.google{ background:url(../images/google.png) center center no-repeat;}
+.header header article ul li a.google:hover{ background:url(../images/google-ho.png) center center no-repeat;}
+
+.header section{ width:100%; float:left;}
+.header section hgroup{ width:27%; float:left; padding:20px 0 20px 0; margin:0 4% 0 0;}
+.header section figcaption{ width:18%; float:left; background:url(../images/phone.png) left center no-repeat; font-size:16px; font-weight:bold; color:#fff;padding:25px 0 25px 5%;}
+.header section figcaption.msg{ background:url(../images/msg.png) left center no-repeat;}
+.header section figcaption.watch{background:url(../images/watch.png) left center no-repeat;}
+.header section figcaption a{ display:block; color:#fff;}
+.header section figcaption p{ font-size:14px; font-weight:normal; padding:5px 0 0 0;}
+
+
+.header nav{ width:100%; float:left;background-color:#cc0309; }
+.header nav ul{ list-style:none; margin:0px; padding:0px;}
+.header nav ul li{ float:left;background:url(../images/line.png) right center no-repeat; line-height:70px; }
+.header nav ul li a{ display:block; color:#fff; font-size:14px; text-transform:uppercase; padding:0 48px 0 48px; transition:all 1s ease;}
+
+
+
+.header nav ul li a:hover{ background-color:#980711;}
+.header nav ul li a.active{ background-color:#980711; padding:0 49px 0 48px;}
+.header nav ul li:last-child{ background:none;}
+
+
+.header footer{ width:65%; float:left; padding:90px 0 0 0;}
+.header footer h1{ font-size:87px; font-family:bree; color:#fff; line-height:90px; letter-spacing:3px; font-weight:bold; text-transform:uppercase;}
+.header footer p{ font-size:16px; color:#fff; padding:30px 0 28px 0; }
+.header footer ul{ list-style:none; margin:0px; padding:0px;}
+.header footer ul li{ float:left; margin:0 10px 0 0;}
+.header footer ul li a{ display:block; font-size:18px; background:#fff; color:#d40307; padding:30px 56px 30px 56px; text-transform:uppercase; transition:all 1s ease;}
+.header footer ul li a span{ font-weight:bold; font-size:18px;}
+.header footer ul li a:hover{ background-color:#d40307; color:#fff;}
+.header footer ul li a.active2{ background-color:#d40307; color:#fff;}
+
+
+.header footer ul li a.tick{ background:url(../images/tick.png) 90% center no-repeat, #fff;}
+.header footer ul li a.tick:hover{ background:url(../images/tick-ho.png) 90% center no-repeat, #d40307; color:#fff;}
+
+.header figure{ width:35%; float:left; padding:10px 0 0 0;}
+/**********************header tags ends***********************/
+
+/**********************section tags starts***********************/
+.sec-1{ width:100%; float:left; padding:0 0 96px 0;}
+.section1{ width:100%; float:left;}
+.sec-1 article{ width:100%; float:left;}
+.sec-1 article h1{ text-align:center; font-weight:bold; text-transform:uppercase; color:#980711; background:url(../images/abo-line.png) center bottom no-repeat; padding:80px 0 10px 0;}
+.sec-1 article h2{ width:100%; float:left; text-align:center; color:#262624; font-weight:bold; font-size:48px; font-family:"Arial"; padding:18px 0 75px 0;}
+.sec-1 iframe{ width:40%; float:left; padding:0 5% 0 0; outline:none !important; border:none;}
+.sec-1 figcaption{ width:48%; float:left; }
+.sec-1 figcaption h1{ font-size:33px; color:#980711; font-weight:bold; text-transform:uppercase; font-family:"Arial"}
+.sec-1 figcaption p{ font-size:16px; color:#262624; padding:25px 0 32px 0; line-height:28px;}
+.sec-1 figcaption a{ width:35%; display:block; padding:20px 0 20px 0; background-color:#025f9d; color:#fff; text-align:center;}
+.sec-1 figcaption a:hover{ background-color:#d40307;}
+
+
+
+.sec-2{ width:100%; float:left; background:url(../images/ptrn.png) left top no-repeat; background-size:cover;}
+.sec-2 section{ width:100%; float:left;}
+.sec-2 article{ width:100%; float:left;}
+.sec-2 article h1{ text-align:center; font-weight:bold; text-transform:uppercase; color:#fff; background:url(../images/line-2.png) center bottom no-repeat; padding:80px 0 10px 0;}
+.sec-2 article h2{ width:100%; float:left; text-align:center; color:#fff; font-weight:bold; text-transform:capitalize; font-size:48px; font-family:"Arial"; padding:18px 0 75px 0;}
+.sec-2 nav{ width:31%; float:left; margin:30px 0 0 0;}
+.sec-2 nav figcaption{ width:80%; float:left;  color:#fff; padding:0 10% 0 10%; text-align:right;}
+.sec-2 nav figcaption.float{ text-align:left;}
+.sec-2 nav figcaption.mar{ margin:0 0 105px; 0}
+.sec-2 nav figcaption h1{ font-size:20px; font-weight:bold;}
+.sec-2 nav figcaption p{ font-size:16px; padding:10px 0 0 0; }
+.sec-2 figure{ width:34%; float:left; margin:0 0 0 4%; padding:0 0 85px 0;}
+.sec-2 figure ul { list-style:none; margin:0px; padding:0px;}
+.sec-2 figure ul li{ float:left; margin:-30px 0 0 -30px;}
+.sec-2 figure ul li a{ display:block; width:214px; height:214px; border-radius:50%; background:url(../images/hathora.png) center center no-repeat ,rgba(3,21, 110, 0.5);}
+.sec-2 figure ul li a:hover{ background-color:rgba(183, 25, 128, 60);}
+.sec-2 figure ul li a.hathora{background:url(../images/setting.png) center center no-repeat ,rgba(3,21, 110, 0.5) ;}
+.sec-2 figure ul li a.hathora:hover{ background-color:rgba(183, 25, 128, 60);}
+
+.sec-2 figure ul li a.pin{background:url(../images/pin.png) center center no-repeat ,rgba(3,21, 110, 0.5) ;}
+.sec-2 figure ul li a.pin:hover{ background-color:rgba(183, 25, 128, 60);}
+
+
+.sec-2 figure ul li a.pann{ background:url(../images/pann.png) center center no-repeat ,rgba(3,21, 110, 0.5) ;}
+.sec-2 figure ul li a.pann:hover{ background-color:rgba(183, 25, 128, 60);}
+
+
+
+
+
+
+
+
+.sec-3{ width:100%; float:left; text-align:center; padding:0 0 126px 0;}
+.sec-3 section{ width:100%; float:left;}
+.sec-3 section header{ width:100%; text-align:left; font-weight:bold; text-transform:capitalize; font-size:48px; font-family:"Arial"; color:#000; background:url(../images/abo-line.png) left bottom no-repeat; padding:80px 0 10px 0; border-bottom:#ccdfeb 1px solid;}
+.sec-3 section article{ width:90%; float:left; padding:0 5% 0 5%;}
+
+.sec-3 section article aside{ width:30%; float:left; background-color:#f9f9f9; text-align:center; padding:68px 0 0 0; margin:70px 0 0 0; position:relative;}
+.posi-top{ position:absolute; height:90px; width:95px; left:0; top:0px; background:url(../images/posi-blue.png) left top
+ no-repeat;}
+ .posi-bot{position:absolute; height:40px; width:40px; right:0; bottom:0px; background:url(../images/posi-red.png) left bottom
+ no-repeat;}
+.sec-3 section article aside p{ font-size:14px; color:#262624; font-style:italic; line-height:28px; padding:20px 9.50% 20px 9.50%;}
+.sec-3 section article aside span{ font-size:14px; color:#262624; font-weight:bold; }
+.sec-3 section article aside span img{ margin:0 5px 0 5px;}
+
+.sec-3 section article aside ul{ list-style:none; margin:0px; padding:0px;}
+.sec-3 section article aside ul li{ display:inline;}
+.sec-3 section article aside ul li a{width:20px; height:20px; background:url(../images/star.png) left center no-repeat; display:inline-block; padding:30px 5px 0 0;  }
+.sec-3 section article aside ul li a:hover{ background:url(../images/star-ho.png) left center no-repeat;}
+.sec-3 section article aside.margin{ margin:70px 5% 0 5%;}
+
+.sec-3 aside figcaption{ width:80%; float:left;  color:#fff; padding:0 10% 0 10%; text-align:right;}
+
+
+
+
+
+
+.sec-4{ width:100%; float:left; background:url(../images/blue-bg.png) left top no-repeat; padding:70px 0 0 0;}
+.sec-4 section{ width:100%; float:left;}
+.sec-4 section article{ width:52%; float:left; padding:0 8% 0 0 ;}
+.sec-4 section article h1{ font-size:36px; font-weight:bold; color:#fff;}
+.sec-4 section article p{ font-size:16px; color:#fff;}
+.sec-4 section aside{ width:24%; float:left; background-color:#cc0309; padding:0 8%  40px 8%;transform:translateY(-108px) ;}
+.sec-4 section aside h1{ font-size:24px; font-weight:bold; color:#fff; padding:32px 0 26px 0; text-align:center; }
+.sec-4 section aside ul{ list-style:none; margin:0px ; padding:0px;}
+.sec-4 section aside ul li{ margin:0 0 10px 0; background-color:#fff; border-radius:5px;}
+.sec-4 section aside ul li a{ display:block; background-color:#025f9d ; line-height:47px; text-align:center;}
+.sec-4 section aside ul li a:hover{ background-color:#;}
+.input{ width:70%; border:none; outline:none; background:#fff; background:url(../images/input-line.png) right center no-repeat; line-height:47px; border-radius:5px; padding:0 0 0 5%; }
+
+.input2{ width:100%; border:none; outline:none; background:#06C; color:#fff; font-size:20px;  line-height:47px; cursor:pointer; border-radius:5px;}
+.input2:hover{ background-color:#FF9966;}
+
+
+
+
+
+.sec-5{ width:100%; float:left; }
+.sec-5 section{ width:100%; float:left;}
+.sec-5 article{ width:100%; float:left; }
+.sec-5 article h1{text-align:center; font-weight:bold; text-transform:uppercase; color:#cc0309; background:url(../images/abo-line.png) center bottom no-repeat; padding:80px 0 10px 0;}
+.sec-5 article h2{text-align:center; color:#262624; font-weight:bold; text-transform:capitalize; font-size:48px; font-family:"Arial"; padding:18px 0 75px 0;}
+
+.sec-5 figure{ width:30%; float:left; position:relative;}
+.posi1{ position:absolute; height:60px; width:60px; left:-30px; top:130px; background-color:#cc0309; text-align:center;font-size:30px; color:#fff; font-weight:bold; font-family:"Arial"; padding:10px 0 0 0;}
+.posi1 h2{font-size:15px; color:#fff; font-weight:bold; font-family:"Arial";}
+.figcaption{ width:100%; float:left}	
+.sec-5 figure h1{ font-size:15px; color:#333333; padding:20px 0 20px 0;}
+.sec-5 figure p{ font-size:13px; color:#999999; line-height:26px; padding:10px 0 24px 0; border-top:#f4f4f4 1px solid; }
+.sec-5 figure ul{ list-style:none; margin:0px; padding:0px;}
+.sec-5 figure ul li{ float:left; margin:0 15px 0 0;}
+.sec-5 figure ul li a{ display:block; font-style:italic; color:#999999;}
+.sec-5 figure ul li a img{ margin:0 10px 0 0;}
+.sec-5 figure.marrr{ margin:0 5% 0 5%;}
+.sec-5 nav{ width:100%; float:left;}
+
+
+
+.sec-6{ width:100%; float:left;}
+.sec-6 section{ width:100%; float:left;}
+.sec-6 section header{ width:100%; text-align:left; font-weight:bold; text-transform:capitalize; font-size:48px; font-family:"Arial"; color:#000; background:url(../images/abo-line.png) left bottom no-repeat; padding:80px 0 10px 0; border-bottom:#ccdfeb 1px solid;}
+
+.sec-6 section article{ width:100%; float:left; padding:45px 0 0 0; padding:45px 0 0 0;}
+.sec-6 section article ul{ list-style:none; margin:0px; padding:0px;}
+.sec-6 section article ul li{ display:inline; margin:0 13px 0 13px;}
+.sec-6 section article ul li a{ display:inline-block; transition:all 1s ease; }
+.sec-6 section article ul li a:hover{ transform:scale(1.1,1.1);}
+
+
+
+
+
+
+.sec-7{ width:100%; float:left; padding:0 0 100px 0; }
+.sec-7 header{ width:100%; float:left;text-align:center;}
+.sec-7  header h1{  font-weight:bold; text-transform:uppercase; color:#cc0309; background:url(../images/abo-line.png) center bottom no-repeat; padding:80px 0 10px 0;}
+.sec-7  header h2{ color:#262624; font-weight:bold; text-transform:capitalize; font-size:48px; font-family:"Arial"; padding:18px 0 55px 0;}
+
+.sec-7 section { width:100%; float:left;}
+.sec-7 section figcaption{ width:25%; float:left;}
+.sec-7 section figcaption nav{ width:100%; float:left;}
+.sec-7 section figcaption nav ul{ list-style:none; margin:0px; padding:0px;}
+.sec-7 section figcaption nav ul li{ margin:0 0 0 0;}
+.sec-7 section  figcaption nav  ul li a{ width:70%; display:block; background: url(../images/locate.png) center 20px no-repeat;background-color:#1e88e5; color:#fff; font-size:14px; padding:72px 15% 23px 15%; text-align:center;  }
+.sec-7 section figcaption nav ul li a:hover{ background:url(../images/locare-ho.png) center 20px no-repeat; background-color:#d3493d; transition:all 1s ease;}
+
+
+.sec-7 section figcaption nav ul li a.twoo{ background: url(../images/phone2.png) center 20px no-repeat; background-color:#1976d2; }
+.sec-7 section figcaption nav ul li a.twoo:hover{ background: url(../images/phone2-ho.png) center 20px no-repeat;background-color:#d3493d; }
+
+
+.sec-7 section figcaption nav ul li a.threee{background: url(../images/msg2.png) center 20px no-repeat;background-color:#1565c0; }
+.sec-7 section figcaption nav ul li a.threee:hover{ background: url(../images/msg2-ho.png) center 20px no-repeat;background-color:#d3493d;}
+
+.sec-7 section figcaption footer{ width:70%; float:left; background-color:#025f9d; padding:40px 10% 40px 20%;}
+.sec-7 section figcaption footer ul{ list-style:none; margin:0px; padding:0px;}
+.sec-7 section figcaption footer ul li{ float:left; margin:0 7px 0 0;}
+.sec-7 section figcaption footer ul li a{ display:block; width:42px; height:50px; background:url(../images/fb2.png) left center no-repeat; transition:all 1s ease;}
+.sec-7 section figcaption footer ul li a:hover{background:url(../images/fb2.png) left center no-repeat; transform:rotate(360deg);}
+
+.sec-7 section figcaption footer ul li a.twi22{ background:url(../images/twi2.png) left center no-repeat;}
+.sec-7 section figcaption footer ul li a.twi22:hover{background:url(../images/twi2.png) left center no-repeat;}
+
+.sec-7 section figcaption footer ul li a.google22{ background:url(../images/google2.png) left center no-repeat;}
+.sec-7 section figcaption footer ul li a.google22:hover{background:url(../images/google2.png) left center no-repeat;}
+
+.sec-7 section figcaption footer ul li a.indeed22{  background:url(../images/in.png) left center no-repeat;}
+.sec-7 section figcaption footer ul li a.indedd22:hover{ background:url(../images/in.png) left center no-repeat;}
+
+.sec-7 section figure{ width:75%; float:left;}
+
+
+
+
+
+.footer{  width:100%; float:left; background:url(../images/footer-ptrn.png) left top no-repeat; background-size:cover; padding:74px 0 50px 0;}
+.footer article{ width:100%; float:left; text-align:center;}
+.footer article hgroup{ width:100%; float:left; padding:0 0 35px 0;}
+.footer article nav{ width:100%; float:left;}
+.footer article nav ul{ list-style:none; margin:0px ; padding:0px;}
+.footer article nav ul li{ display:inline; padding:0 35px 0 35px; border-right:#eddede 1px solid;}
+.footer article nav ul li:last-child{ border-right:none;}
+.footer article nav ul li a{ display:inline-block; color:#eddede;}
+.footer article nav ul li a:hover{  color:#000;}
+
+
+.footer article footer{ width:100%; float:left; font-size:14px; text-align:center; color:#fff; padding:40px 0 0 0;}
+/**********************section tags starts***********************/
